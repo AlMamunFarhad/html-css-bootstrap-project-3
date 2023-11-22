@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+ cursor: pointer;
+}
+.section-2 .section2-btn button{
+    background-color: #efc04e; 
+    padding-right: 6rem;
+}
+
+/* section 4 */
+.section-4 p{
+ font-size: 1.9rem !important;
+}
+
+/* footer */
+.footer li a{
+    color:#efc04e;
+    text-decoration: none;
+    padding: 1rem 1rem;
+}
+.footer .text-border{
+    border-right: 2px solid #efc04e;
+    line-height: 1rem;
+}
+
+@media screen and (max-width: 500px){
+    .section-2 li{
+     font-size: .9rem !important;
+    }
+}
+
+
+/* section 4 */
+@media screen and (max-width: 1300px){
+ .section-4 p{
+    font-size: 1rem !important;
+ }
+}
+
+@media screen and (max-width: 768px){
+div.section-4 {
+    margin: 1.5rem !important;
+    padding: 0 !important;
+}
+.section-4 .row .col-md-6{
+    margin: 1rem 0 !important;
+}
+.section-4 .ms-5{
+    margin: 0 !important;
+}
+}
+
+/* section 5 */
+@media screen and (max-width: 1300px){
+.section-5 p{
+    font-size: 1rem !important;
+}
+.section-5 tr th{
+ font-size: 1.2rem !important;
+}
+.section-5 tr td{
+    font-size: 1rem !important;
+}
+
+}
+/* button */
+@media screen and (max-width: 460px){
+.section-2 .section2-btn button h1{
+    font-size: 1.2rem !important;
+}
+}
+@media screen and (max-width: 460px){
+.section2-btn button h1{
+    font-size: 1.2rem !important;
+}
+}
+
+
+/* Footer */
+@media screen and (max-width: 768px){
+.footer .footer-menu ul {
+    flex-direction: column !important; 
+}
+.footer .footer-menu ul li{
+    padding-bottom: 1rem;
+}
+}
+
+
+
